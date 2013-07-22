@@ -1,0 +1,9 @@
+{
+    "command": "mirror",
+    "usage": [
+        "mirror <package-name> [<src-registry>] <dest-repo> <dest-registry>",
+        "mirror <package-name>#<version> [<src-registry>] <dest-repo> <dest-registry>"
+    ],
+    "options": [],
+    "description": "Mirrors a repo from where it lives currently to the specified <dest-repo>, then registers it with <dest-registry>. You must have push permissions to that repo."
+}
